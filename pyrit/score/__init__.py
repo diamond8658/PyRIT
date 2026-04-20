@@ -66,6 +66,7 @@ from pyrit.score.true_false.self_ask_true_false_scorer import (
     TrueFalseQuestionPaths,
 )
 from pyrit.score.true_false.substring_scorer import SubStringScorer
+from pyrit.score.true_false.tool_call_scorer import ToolCallScorer
 from pyrit.score.true_false.true_false_composite_scorer import TrueFalseCompositeScorer
 from pyrit.score.true_false.true_false_inverter_scorer import TrueFalseInverterScorer
 from pyrit.score.true_false.true_false_score_aggregator import TrueFalseAggregatorFunc, TrueFalseScoreAggregator
@@ -126,6 +127,7 @@ __all__ = [
     "SelfAskTrueFalseScorer",
     "ScorerPrinter",
     "SubStringScorer",
+    "ToolCallScorer",
     "TrueFalseCompositeScorer",
     "TrueFalseInverterScorer",
     "TrueFalseQuestion",
